@@ -14,7 +14,7 @@ $connectionInfo = array("UID" => "shad", "pwd" => "#sylvester777", "Database" =>
 $serverName = "tcp:mbungula.database.windows.net,1433";
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 
-$sql = "SELECT * FROM FROM names";
+$sql = "SELECT * FROM names";
 $result = mysqli_query($conn,$sql);
 $names = mysqli_fetch_all($result, MYSQLI_ASSOC);
 print_r($names);

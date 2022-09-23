@@ -1,3 +1,4 @@
+<?php echo "hello Azure By shad";?>
 <?php
 // PHP Data Objects(PDO) Sample Code:
 try {
@@ -19,4 +20,4 @@ $result = mysqli_query($conn,$sql);
 $names = mysqli_fetch_all($result, MYSQLI_ASSOC);
 print_r($names);
 ?>
-<?php echo "hello Azure By shad";?>
+

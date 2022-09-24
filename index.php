@@ -14,7 +14,7 @@ catch (PDOException $e) {
 $connectionInfo = array("UID" => "shad", "pwd" => "#sylvester777", "Database" => "mbungulaweb", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
 $serverName = "tcp:mbungula.database.windows.net,1433";
 $conn = sqlsrv_connect($serverName, $connectionInfo);
-?>
+
 
 $stmt = $conn->query(SELECT * FROM names");
 while($row = $stmt->fetch()){

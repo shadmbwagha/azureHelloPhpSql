@@ -1,6 +1,6 @@
 <?php echo "hello Azure By shad";?>
 <?php
-$conn = mysqli_connect("tcp:mbungula.database.windows.net","shad","#sylvester777","mbungulaweb");
+$conn = mysqli_connect("mbungula.database.windows.net","shad","#sylvester777","mbungulaweb");
 
 $sql = "SELECT * FROM names";
 $result = mysqli_query($conn,$sql);

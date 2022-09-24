@@ -19,8 +19,8 @@ $conn = sqlsrv_connect($serverName, $connectionInfo);
 
 $stmt = $conn->query(SELECT * FROM names");
 while($row = $stmt->fetch()){
-  echo $row['first_name']."<br>/";
+  echo $row["first_name"]."<br>/";
 }
-print_r($names);
+
 ?>
 

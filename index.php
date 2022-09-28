@@ -19,7 +19,7 @@ catch (PDOException $e) {
 
 
 
-$sql = 'SELECT * FROM [db].[names]';
+$sql = 'SELECT * FROM [dbo].[names]';
 
 $statement = $conn->query($sql);
 

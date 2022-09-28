@@ -21,4 +21,20 @@ $connectionInfo = array("UID" => "shad", "pwd" => "#sylvester777", "Database" =>
 $serverName = "tcp:mbungula.database.windows.net,1433";
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 
+
+$sql = 'SELECT id
+		FROM [dbo].[names]';
+
+$statement = $pdo->query($sql);
+
+// get all publishers
+$publishers = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+if ($publishers) {
+	// show the publishers
+	foreach ($publishers as $publisher) {
+		echo $publisher['id'] . '<br>';
+	}
+}
+
 ?>

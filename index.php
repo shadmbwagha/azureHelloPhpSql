@@ -1,5 +1,5 @@
 <?php 
-    echo "hello Azure By shad";
+    echo "hello Azure By shad<br>";
 //     $conn = mysqli_connect("tcp:mbungula.database.windows.net", "shad", "#sylvester777", "mbungulaweb");
 //     if(!$conn){
 //         echo "Connection Error".mysqli_connect_error();
@@ -33,7 +33,7 @@ $publishers = $statement->fetchAll(PDO::FETCH_ASSOC);
 if ($publishers) {
 	// show the publishers
 	foreach ($publishers as $publisher) {
-		echo $publisher['id'] . '<br>';
+		echo $publisher['first_name'] . '<br>';
 	}
 }
 

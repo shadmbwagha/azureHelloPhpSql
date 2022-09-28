@@ -16,10 +16,7 @@ catch (PDOException $e) {
     die(print_r($e));
 }
 
-// SQL Server Extension Sample Code:
-$connectionInfo = array("UID" => "shad", "pwd" => "#sylvester777", "Database" => "mbungulaweb", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
-$serverName = "tcp:mbungula.database.windows.net,1433";
-$conn = sqlsrv_connect($serverName, $connectionInfo);
+
 
 
 $sql = 'SELECT * FROM names';

@@ -22,8 +22,7 @@ $serverName = "tcp:mbungula.database.windows.net,1433";
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 
 
-$sql = 'SELECT id
-		FROM [dbo].[names]';
+$sql = 'SELECT id FROM [dbo].[names]';
 
 $statement = $pdo->query($sql);
 

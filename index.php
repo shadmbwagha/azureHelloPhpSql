@@ -22,7 +22,7 @@ $serverName = "tcp:mbungula.database.windows.net,1433";
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 
 
-$sql = 'SELECT id FROM names';
+$sql = 'SELECT * FROM names';
 
 $statement = $pdo->query($sql);
 

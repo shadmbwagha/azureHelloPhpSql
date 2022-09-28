@@ -21,7 +21,7 @@ catch (PDOException $e) {
 
 $sql = 'SELECT * FROM names';
 
-$statement = $pdo->query($sql);
+$statement = $conn->query($sql);
 
 // get all publishers
 $publishers = $statement->fetchAll(PDO::FETCH_ASSOC);

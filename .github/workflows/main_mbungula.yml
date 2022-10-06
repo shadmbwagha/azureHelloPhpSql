@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'mbungula'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_52F16C59FB9D488FB160CD839D71A745 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A28112BA161A4B4E9E889C68C6571C63 }}
           package: .

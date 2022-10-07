@@ -22,9 +22,7 @@ header .title{
 .logo-img{
 	height: 33.55px;
 	width: 44.88px;
-	position: absolute;
-	right:30px;
-	top:10px;
+	
 }
 
 
@@ -122,9 +120,7 @@ a{
 	.logo-img{
 		height: 26.13px;
 		width: 34.96px;
-		position: absolute;
-		left:10px;
-		top:10px;
+		
 	}
 
 	.mbungula-text{

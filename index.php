@@ -2,10 +2,9 @@
   include('header.php');
 
   $sql = "SELECT * FROM items WHERE active='yes' LIMIT 4";
-  $result = mysqli_query($conn,$sql);
-  $items = mysqli_fetch_all($result,MYSQLI_ASSOC);
-  mysqli_free_result($result);
-  mysqli_close($conn);
+  $result =$conn->query($sql);
+  $items = $result->fetchAll(PDO::FETCH_ASSOC);
+ 
 
 ?>
 

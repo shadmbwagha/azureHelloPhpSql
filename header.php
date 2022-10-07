@@ -22,7 +22,7 @@
 
   <!-- Mbungula title -->
   <h1 class="navbar-brand h1 title ">
-      <div class="fw-bold title text-center mbungula-text my-md-3" style="color: #136DD9;">MBUNGULA</div>
+      <div class="fw-bold title text-center mbungula-text py-2" style="color: #136DD9;">MBUNGULA</div>
   </h1>
 
   <!-- Search bar -->

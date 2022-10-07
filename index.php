@@ -259,7 +259,9 @@
 
     <div class="container"> 
       <div class="row text-black my-3 justify-content-center align-items-center">
-          <?php foreach ($items as $item): 
+          <?php
+        if($items){
+        foreach ($items as $item): 
             $img_paths = array(explode(',',$item['media_path']));
             $img_path = $img_paths[0];   
           ?>
@@ -277,7 +279,7 @@
              </a>
             </div>
           
-          <?php endforeach;?>
+          <?php endforeach;}?>
              
         </div>
       </div>

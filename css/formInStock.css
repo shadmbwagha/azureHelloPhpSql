@@ -1,0 +1,24 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ddd;
+	overflow-x: hidden;
+}
+header{
+	background-color: black;
+}
+header .title{
+	font-size: 30px;
+}
+
+
+/*MBUNGULA title text*/
+.mbungula-text{
+	margin-top: 5px;
+}
+
+
+/*mbungula logo*/
+.logo-img{
+	height: 33.55px;
+	width: 44.88px;
+}

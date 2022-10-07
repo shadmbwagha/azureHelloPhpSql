@@ -5,6 +5,7 @@ body{
 }
 header{
 	background-color: black;
+	margin-top:0;
 }
 header .title{
 	font-size: 30px;

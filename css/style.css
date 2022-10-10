@@ -3,7 +3,9 @@ body{
 	background-color:;
 	overflow-x: hidden;
 }
-
+header{
+	margin-top:0;
+}
 /*mbungula logo*/
 .logo-img{
 	height: 33.55px;

@@ -91,6 +91,26 @@
     </div>
   </div>
 </nav>
+		/*mbungula logo*/
+.logo-img{
+	height: 33.55px;
+	width: 44.88px;
+	position: absolute;
+	right:30px;
+	top:10px;
+}
+
+
+/*toggle bar*/
+.fa-bars{
+	font-size: 50px;
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	width: 40px;
+	cursor: pointer;
+
+}
 
 
   </header>

@@ -156,7 +156,7 @@
              <p class="lead card-subtitle">Projects done</p>
              <p class="display-4 my-4 text-primary fw-bold">37</p>
              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-             <a class="btn btn-outline-primary btn-lg mt-3">See more</a>
+             <a class="btn btn-outline-primary btn-lg mt-3">See more...</a>
           </div>
         </div>
       </div>

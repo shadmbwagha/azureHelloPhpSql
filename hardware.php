@@ -48,8 +48,7 @@
     </div>
     </div>
     <div class="col-md-6 p-4 ">
-      <h3 class="my-4">Welcome to our store,<br>We have awesome products for you needs.</h3>
-      <p>you may visit our store or order online we make fast and efficient service to our clients in affordable price and detailed important information about our products</p>
+      <h3 class="my-4">Welcome to our hardware store</h3>
       <p>Building material, motor spare parts, machinery spare parts and machines for iron working, funrniture, constuction and technician working tool kit</p>
     </div>
     </div>

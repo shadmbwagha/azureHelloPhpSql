@@ -1,7 +1,9 @@
 <?php 
   include('header.php');
 
-
+  $sql = "SELECT * FROM [dbo].[items] WHERE active='yes' LIMIT 4";
+  $result =$conn->query($sql);
+  $items = $result->fetchAll(PDO::FETCH_ASSOC);
 
 ?>
 

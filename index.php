@@ -1,236 +1,169 @@
 <?php 
-  require('header.php');
-
-
-
+  include('header.php');
 ?>
 
+<div class="body">
 
-<!-- Main Body Content -->
-  <div class="main-body container">
-
-
-
-    <!-- Image slider body -->
-    <section class="image-slider-box mt-2">
-        <div class="image-slide-body">
-          <!-- image slider start -->
-          <div class="slider">
-            <div class="slides">
-              
-              <!-- radio button start -->
-              <input type="radio" name="radio-btn" id="radio1">
-              <input type="radio" name="radio-btn" id="radio2">
-              <input type="radio" name="radio-btn" id="radio3">
-              <input type="radio" name="radio-btn" id="radio4">
-              <!-- radio button end -->
-
-              <!-- slide image start -->
-                <div class="slide first">
-                  <img src="xa.JPEG" alt="sorry failed to load image">
-                </div>
-                <div class="slide">
-                  <img src="xt.jpg" alt="sorry failed to load image">
-                </div>
-                <div class="slide">
-                  <img src="xgro.jpg" alt="sorry failed to load image">
-                </div>
-                <div class="slide">
-                  <img src="xd.JPEG" alt="sorry failed to load image">
-                </div>
-              <!-- slide image end -->
-
-              <!-- automatic navigation start -->
-              <div class="navigation-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
-              </div>
-              <!-- automatic navigation start -->
-
-            </div>
-            <!-- manual navigation start -->
-            <div class="manual-navigation">
-              <label for="radio1" class="manual-btn"></label>
-              <label for="radio2" class="manual-btn"></label>
-              <label for="radio3" class="manual-btn"></label>
-              <label for="radio4" class="manual-btn"></label>
-            </div>
-            <!-- manual navigation end-->
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-6 my-3">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="buttondriveer" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-        <!-- image slider end -->
 
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="assets/excavator.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption text-white text-start">
+                <h5 style="color: #E8491D;" class="fw-bold ">Construction <span class="fw-thin text-white">and</span> Reconstruction</h5>
+                <p>Every tool for construction of House, Bridges, Roads and Facility</p>
+              </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="assets/consmap.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption text-white">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="assets/bolt.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption text-white text-start">
+                <h5 class="fw-bold">Quality Bolts,nuts, nails</h5>
+                <p>Bolt for motors, machines and cars</p>
+              </div>
+            </div>
+        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
-    <!-- Mission, Vision, value, Social Responsibility  -->
-        <div class="row text-white black-board m-2 my-4 ">
-          <nav>
-           <ul class="nav nav-tabs nav-culture" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link active" id="mission-tab" data-bs-toggle="tab" data-bs-target="#mission" type="button" role="tab" aria-controls="mission" aria-selected="true">MISSION</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="vision-tab" data-bs-toggle="tab" data-bs-target="#vision" type="button" role="tab" aria-controls="vision" aria-selected="false">VISION</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="value-tab" data-bs-toggle="tab" data-bs-target="#value" type="button" role="tab" aria-controls="value" aria-selected="false">VALUE</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="social-tab" data-bs-toggle="tab" data-bs-target="#social" type="button" role="tab" aria-controls="social" aria-selected="false">SOCIAL RESPONSIBILITY</button>
-                </li>
-              </ul>
-              <div class="tab-content" id="myTabContent">
-
-                <!-- Mission content -->
-                <div class="tab-pane fade show active" id="mission" role="tabpanel" aria-labelledby="mission-tab">To contribute to enhance the good living standard of people by provision of quality products and services.</div>
-
-                <!-- Vision content -->
-                <div class="tab-pane fade" id="vision" role="tabpanel" aria-labelledby="vision-tab">To be one of professionally managed company in Africa and the world.</div>
-
-                <!-- Value content -->
-                <div class="tab-pane fade" id="value" role="tabpanel" aria-labelledby="value-tab">Hard working, creativity and innovation will bring the changes and difference to human life.</div>
-
-                <!-- Social responsibility -->
-                <div class="tab-pane fade" id="social" role="tabpanel" aria-labelledby="social-tab">We also believe that "it is normal to help" and therefore, we aim to invest significant finicial resources in the non-profit sectors every year. Especially in areas of people with need of special care, culture, health care, sports and education</div>
-              </div>
-          </nav>
-        </div>
-        <!-- Mission, Vision, value, Social Responsibility  Ends-->
-        
-      
-      
-      
-<!--    BLOCK 2 -->
-
-    </section>
-    <!-- Image slider body ENDS -->
-
-
-
-
-
-
-
-    <!-- Aside articles STARTS -->
-
-    <aside class="articles text-white mt-2">
-      <div class="col container align-items-center justify-content-center">
-
-        <div class="row my-2">
-          <!-- Card design -->
-          <div class="col card m-0 p-0 me-1 rounded-0">
-            <div class="card-body m-0 p-0 text-center">
-              <img class="img-fluid m-0 p-0" src="assets/saddle.jpg" >
-            </div>
-            <div class="card-footer text-center border border-0">
-              <span class="text-black text-center item-name">Building material<br>
-              roof,tiles,color....</span>
-            </div>
-          </div>
-          <div class="col card m-0 p-0 me-1 rounded-0">
-            <div class="card-body m-0 p-0 text-center">
-              <img class="img-fluid m-0 p-0" src="assets/mashine_screw.jpg">
-            </div>
-            <div class="card-footer text-center border border-0">
-              <span class="text-black text-center item-name">Spares<br>
-              motors,machinery</span>
-            </div>
-          </div>
-          <div class="col card m-0 p-0 me-1 rounded-0">
-            <div class="card-body m-0 p-0 text-center">
-              <img class="img-fluid m-0 p-0" src="xc.jpg" >
-            </div>
-            <div class="card-footer text-center border border-0">
-              <span class="text-black text-center item-name">Machinery<br>
-              blower,Gig Saw</span>
-            </div>
-          </div>
-        </div>
-
-
-<!--         BLOCK 2 -->
-
-        <!-- Products addvertisement -->
-        <div class="row text-white my-2 ">
-
-          <!-- Card design -->
-          <div class="col card m-0 p-0 me-1 rounded-0">
-            <div class="card-body m-0 p-0 text-center">
-              <img class="img-fluid m-0 p-0" src="xc.jpg" >
-            </div>
-            <div class="card-footer text-center border border-0">
-              <span class="text-black text-center item-name">Agrovet</span>
-              
-            </div>
-          </div>
-          
-          <!-- Card design -->
-          <div class="col card m-0 p-0 me-1 rounded-0">
-            <div class="card-body m-0 p-0 text-center">
-              <img class="img-fluid m-0 p-0" src="xt.jpg">
-              
-            </div>
-            <div class="card-footer text-center border border-0">
-              <span class="text-black text-center item-name">Real Estate</span>
-              
-            </div>
-            
-            
-          </div>
-
-          <!-- Card design -->
-          <div class="col card m-0 p-0 me-1 text-black  rounded-0">
-            
-            <div class="card-body my-3 text-center ">
-              See more in our store ....
-              <button class="btn btn-outline-primary">Click Here</button>
-            </div>
-         
-          </div>
-          <!-- Adds card ends -->
-
-
-
-        </div>
-
-
-         
-
-        <div class="row black-board welcome mt-4">
-          Tumia bidhaa za kisasa na zenye ubora kuongeza ubora, uzalishaji na weredi wa kazi yako.Karibu upate bidhaa bora na imara kwa bei nafuu.<br/> <span class="text-center"> “…Karibu Sana…“</span>
-        </div>
-
-
-
-      </div>
-    </aside>
-
-    <!--Aside  Artciles  Ends-->
-    
-
-
-  </div>
-
-    <div class="container"> 
-      <div class="row text-black my-3 justify-content-center align-items-center">
-<!--     BLOCK 3       -->
-        </div>
-      </div>
-
-  <?php 
-    include('footer.html');
-  ?>
-
-  <script type="text/javascript">
-      var counter = 1;
-      setInterval(function(){
-        document.getElementById('radio'+ counter).checked = true;
-        counter++;
-        if (counter>4){
-          counter=1;
-        }
-      }, 5000);       
+    <div class="col-md-6 p-4 ">
+      <h3 class="my-4">Welcome to our store,<br>We have awesome products for you needs.</h3>
+      <p>you may visit our store or order online we make fast and efficient service to our clients in affordable price and detailed important information about our products</p>
+    </div>
+    </div>
+    <script type="text/javascript">
+      var myCarousel = document.querySelector('#myCarousel')
+      var carousel = new bootstrap.Carousel(myCarousel, {
+      interval: 2000,
+      wrap: false
+    })
     </script>
 
-</body>
-</html>
+    <style type="text/css">
+
+      body{
+        background-color: white;
+      }
+      #carouselExampleDark{
+        width: 100%;
+      }
+
+      #carouselExampleDark img{
+        background-size: cover;
+      }
+
+      .line{
+        height: 5px;
+        width: 50px;
+        background-color: #E8491D;
+      }
+
+
+      /*product view*/
+      .product-view{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-areas: "image" "text";
+      }
+
+      .product-image{
+        grid-area: image;
+      }
+
+      .product-text{
+        grid-area: text;
+      }
+
+
+      @media (max-width: 768px){
+
+      /*product view*/
+      .product-view{
+        display: grid;
+        grid-template-rows: ;
+        grid-template-columns: 1fr 3fr;
+        grid-template-areas: "image text";
+      }
+
+    }
+
+    </style>
+
+    <!-- coursel and intro word END -->
+
+
+<!-- category on page -->
+  <section id="pricing" class="bg-light mt-5 py-4">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Our Services</h2>
+        <p class="lead text-muted">Services and products we sell and provide</p>
+      </div>
+    </div>
+    <div class="row my-5 align-items-center justify-content-center g-5">
+      <!-- col width in different size -->
+      <div class="col-8 col-lg-4 col-xl-3">
+        <div class="card border-0">
+          <div class="card-body text-center py-4">
+             <h4 class="card-title">Pembejeo za kilimo</h4>
+             <p class="lead card-subtitle"></p>
+             <p class="display-4 my-4 text-primary fw-bold">Agrovet</p>
+             <p class="card-text mx-5 text-muted d-none d-lg-block">Dawa, mbolea, mifuko, mipira ya kumwagilizia</p>
+             <a class="btn btn-outline-primary btn-lg mt-3">See More...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-9 col-lg-4">
+        <div class="card border-primary border-2 ">
+          <div class="card-header text-center text-primary">Mostly popular</div>
+          <div class="card-body text-center py-4">
+             <p class="lead card-subtitle">Vifaa vya ujenzi, mashine, spea za pikiki na mashine</p>
+             <p class="display-3  my-4 text-primary fw-bold">Hardware Store</p>
+             <p class="card-text mx-5 text-muted d-none d-lg-block">Vifaa Vya Ujenzi, Spea za pikiki na magari, Bettery, Mashine, Spea za mashine, Vifaa vya maji</p>
+             <a class="btn btn-outline-primary btn-lg mt-3">see more..</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-8 col-lg-4 col-xl-3">
+        <div class="card border-0">
+          <div class="card-body text-center py-4">
+             <h4 class="card-title">Infrastructure construction</h4>
+             <p class="lead card-subtitle">Schools, Hospital, Campus, Bridge, Road</p>
+             <p class="lead card-subtitle">Projects done</p>
+             <p class="display-4 my-4 text-primary fw-bold">37</p>
+             <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+             <a class="btn btn-outline-primary btn-lg mt-3">See more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+    <?php require('footer.html'); ?>

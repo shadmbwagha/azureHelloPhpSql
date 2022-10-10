@@ -1,5 +1,5 @@
 <?php 
-  include('header.php');
+  require('header.php');
 
   $sql = "SELECT * FROM [dbo].[items] WHERE active='yes' LIMIT 4";
   $result =$conn->query($sql);

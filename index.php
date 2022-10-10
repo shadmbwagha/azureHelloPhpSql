@@ -152,7 +152,7 @@
         <div class="card border-0">
           <div class="card-body text-center py-4">
              <h4 class="card-title">Infrastructure construction</h4>
-             <p class="lead card-subtitle">Schools, Hospital, Campus, Bridge, Road</p>
+             <p class="lead card-subtitle">Schools, Hospital, Campus, Bridge, Road</p><br>
              <p class="lead card-subtitle">Projects done</p>
              <p class="display-4 my-4 text-primary fw-bold">37</p>
              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>

@@ -162,6 +162,44 @@
       </div>
     </div>
   </section>
+  
+  
+  
+  
+  <!-- Mission, Vision, value, Social Responsibility  -->
+        <div class="row text-white black-board m-2 my-4 ">
+          <nav>
+           <ul class="nav nav-tabs nav-culture" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="mission-tab" data-bs-toggle="tab" data-bs-target="#mission" type="button" role="tab" aria-controls="mission" aria-selected="true">MISSION</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="vision-tab" data-bs-toggle="tab" data-bs-target="#vision" type="button" role="tab" aria-controls="vision" aria-selected="false">VISION</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="value-tab" data-bs-toggle="tab" data-bs-target="#value" type="button" role="tab" aria-controls="value" aria-selected="false">VALUE</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="social-tab" data-bs-toggle="tab" data-bs-target="#social" type="button" role="tab" aria-controls="social" aria-selected="false">SOCIAL RESPONSIBILITY</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+
+                <!-- Mission content -->
+                <div class="tab-pane fade show active" id="mission" role="tabpanel" aria-labelledby="mission-tab">To contribute to enhance the good living standard of people by provision of quality products and services.</div>
+
+                <!-- Vision content -->
+                <div class="tab-pane fade" id="vision" role="tabpanel" aria-labelledby="vision-tab">To be one of professionally managed company in Africa and the world.</div>
+
+                <!-- Value content -->
+                <div class="tab-pane fade" id="value" role="tabpanel" aria-labelledby="value-tab">Hard working, creativity and innovation will bring the changes and difference to human life.</div>
+
+                <!-- Social responsibility -->
+                <div class="tab-pane fade" id="social" role="tabpanel" aria-labelledby="social-tab">We also believe that "it is normal to help" and therefore, we aim to invest significant finicial resources in the non-profit sectors every year. Especially in areas of people with need of special care, culture, health care, sports and education</div>
+              </div>
+          </nav>
+        </div>
+        <!-- Mission, Vision, value, Social Responsibility  Ends-->
 
 
 

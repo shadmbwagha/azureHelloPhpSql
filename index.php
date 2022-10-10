@@ -1,9 +1,7 @@
 <?php 
   require('header.php');
 
-  $sql = 'SELECT * FROM [dbo].[items] WHERE active="yes"';
-  $result =$conn->query($sql);
-  $items = $result->fetchAll(PDO::FETCH_ASSOC);
+
 
 ?>
 
@@ -98,30 +96,11 @@
           </nav>
         </div>
         <!-- Mission, Vision, value, Social Responsibility  Ends-->
-        <div class="row text-black align-items-center justify-content-center d-md-none">
-           <div class="row text-black my-2 justify-content-center align-items-center">
-          <?php foreach ($items as $item): 
-            $img_paths = array(explode(',',$item['media_path']));
-            $img_path = $img_paths[0];   
-          ?>
-            <div class="col-md-2 col-12 bg-light my-3 mx-auto">
-              <a href="item_show_case.php?id=<?php echo $item['id'];?>">
-               <div class="product-view justify-content-center align-items-center">
-                 <div class="poduct-image"><img class="img-fluid" src="assets/<?php echo $img_path[0];?>" width="100%" alt="<?php echo $img_path[0];?>"></div>
-                 <div class="product-text align-items-center justify-content-center mt-3 ms-3">
-                   <h4 class="mb-2 fw-bolder"><?php echo $item['item_name'];?></h4>
-                   <h6 class="mb-2"><?php echo $item['item_options'];?></h6>
-                   <p class="display-7"><?php echo $item['item_use'];?></p>
-                   <h6 class="fw-bold">TZS <?php echo $item['cost'];?>/=</h6>
-                 </div>
-               </div>  
-             </a>
-            </div>
-          
-          <?php endforeach;?>
-             
-        </div>
-        </div>
+        
+      
+      
+      
+<!--    BLOCK 2 -->
 
     </section>
     <!-- Image slider body ENDS -->
@@ -169,31 +148,7 @@
         </div>
 
 
-        <div class="row text-black align-items-center justify-content-center d-md-none">
-           <div class="row text-black my-2 justify-content-center align-items-center">
-          <?php foreach ($items as $item): 
-            $img_paths = array(explode(',',$item['media_path']));
-            $img_path = $img_paths[0];   
-          ?>
-            <div class="col-md-2 col-12 bg-light my-3 mx-auto">
-              <a href="item_show_case.php?id=<?php echo $item['id'];?>">
-               <div class="product-view justify-content-center align-items-center">
-                 <div class="poduct-image"><img class="img-fluid" src="assets/<?php echo $img_path[0];?>" width="100%" alt="<?php echo $img_path[0];?>"></div>
-                 <div class="product-text align-items-center justify-content-center mt-3 ms-3">
-                   <h4 class="mb-2 fw-bolder"><?php echo $item['item_name'];?></h4>
-                   <h6 class="mb-2"><?php echo $item['item_options'];?></h6>
-                   <p class="display-7"><?php echo $item['item_use'];?></p>
-                   <h6 class="fw-bold">TZS <?php echo $item['cost'];?>/=</h6>
-                 </div>
-               </div>  
-             </a>
-            </div>
-          
-          <?php endforeach;?>
-             
-        </div>
-       
-        </div>
+<!--         BLOCK 2 -->
 
         <!-- Products addvertisement -->
         <div class="row text-white my-2 ">
@@ -258,27 +213,7 @@
 
     <div class="container"> 
       <div class="row text-black my-3 justify-content-center align-items-center">
-          <?php
-          foreach ($items as $item): 
-            $img_paths = array(explode(',',$item['media_path']));
-            $img_path = $img_paths[0];   
-          ?>
-            <div class="col-md-2 col-12 bg-light my-3 mx-auto">
-              <a href="item_show_case.php?id=<?php echo $item['id'];?>">
-               <div class="product-view justify-content-center align-items-center">
-                 <div class="poduct-image"><img class="img-fluid" src="assets/<?php echo $img_path[0];?>" width="100%" alt="<?php echo $img_path[0];?>"></div>
-                 <div class="product-text align-items-center justify-content-center mt-3 ms-3">
-                   <h4 class="mb-2 fw-bolder"><?php echo $item['item_name'];?></h4>
-                   <h6 class="mb-2"><?php echo $item['item_options'];?></h6>
-                   <p class="display-7"><?php echo $item['item_use'];?></p>
-                   <h6 class="fw-bold">TZS <?php echo $item['cost'];?>/=</h6>
-                 </div>
-               </div>  
-             </a>
-            </div>
-          
-          <?php endforeach;?>
-             
+<!--     BLOCK 3       -->
         </div>
       </div>
 

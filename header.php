@@ -147,7 +147,7 @@
       color: white;
       font-size: 25px;
       position: absolute;
-      top: -120px;
+      top: -130px;
       right: 0px;
       width: 40px;
       cursor: pointer;

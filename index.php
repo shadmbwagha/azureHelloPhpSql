@@ -167,7 +167,7 @@
   
   
   <!-- Mission, Vision, value, Social Responsibility  -->
-        <div class="row text-white black-board m-2 my-4 ">
+        <div class="row text-white black-board m-2 my-4 " style="background-color:black;">
           <nav>
            <ul class="nav nav-tabs nav-culture" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">

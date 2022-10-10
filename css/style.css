@@ -97,9 +97,9 @@ a{
 	
 	.fa-bars{
 		color: white;
-		font-size: 50px;
+		font-size: 40px;
 		position: absolute;
-		top: -140px;
+		top: -150px;
 		right: 0px;
 		width: 40px;
 		cursor: pointer;

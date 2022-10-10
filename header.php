@@ -136,9 +136,7 @@
       top:10px;
     }
 
-    .mbungula-text{
-      margin-top: 30px;
-    }
+  
     
     
     header{

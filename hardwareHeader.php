@@ -97,36 +97,6 @@
   </nav>
 <!-- Nav bar Ends -->
 </header>
-<?php include('connect_db.php'); ?>
-
-<script type="text/javascript">
-  $(document).ready(function (){
-    $("#search-tab").keyup(function (){
-
-      let input = $(this).val();
-      if(input != ""){
-        $.ajax(
-        {
-          url:"response.php",
-          method:"post",
-          data:{input:input},
-
-          success: function(response){
-            $("#searchresults").html(response);
-            $("#searchresults").css("display","block");
-
-          }
 
 
-        }
 
-          )}
-
-        else{
-          $("#searchresults").css("display","none");
-        }
-    });
-
-
-  });
-</script>

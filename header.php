@@ -4,11 +4,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="shortcut icon" type="img/svg" href="./assets/mbulalgsvg.svg">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-	
+	   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+	   <link rel="stylesheet" type="text/css" href="css/style.css">
   	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+ 	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script> -->
+  <link rel="stylesheet" type="text/css" href="css/css/bootstrap.css">
+  <script type="text/javascript" src="css/js/bootstrap.js"></script>
 	<title>Mbungula | welcome</title>
 </head>
 
@@ -16,19 +18,19 @@
 
 
 <body>
-	<header style="background-color: black;" class="">
+	<header >
     <!-- mbungula logo -->
-  <img  src="./assets/mbulalgsvg.svg" height="53.3px"; width="73.3px" class="img img-fluid logo-img"/>
+  
 
   <!-- Mbungula title -->
-  <h1 class="navbar-brand h1 title ">
-      <div class="fw-bold title text-center mbungula-text pt-5 pb-1" style="color: #136DD9;">MBUNGULA</div>
+  <h1 class="text-start text-md-center" style="padding-left: 10px; padding-top: 10px;">
+      <div class="d-flex"><img  src="./assets/mbulalgsvg.svg" height="26.13px" width="34.96px" class="img img-fluid me-2"/><div class="fw-bold pt-1" style="color: #136DD9; font-size: 25px;">MBUNGULA</div></div>
   </h1>
 
   <!-- Search bar -->
   <div class="text-center search mt-4">
     <form action="itemSearch.php" method="POST">
-      <input placeholder="search here...." name="search" type="search" required>
+      <input placeholder="search here...." name="search" type="search" required >
       <button class="btn btn-outline-primary fa fa-search " style="color: white; font-size: 20px;" type="submit" type="submit" name="submit"></button>
     </form>
   </div>
@@ -94,13 +96,13 @@
 
 </header>
 <style>
-    /*mbungula logo*/
+  body{
+    background-color: white;
+  
+  }
   .logo-img{
     height: 33.55px;
-    width: 44.88px;
-    position: absolute;
-    right:30px;
-    top:10px;
+    width: 44.88px;  
   }
 
 
@@ -118,40 +120,30 @@
   }
 
   header{
-    background-color: black;
+    background-color:black;
+    width: 100%;
   }
-  header .title{
-    font-size: 30px;
-  }
+ 
 
-  @media(max-width: 768px){
+  @media (max-width: 600px){
 
     /*Header*/
 
     .logo-img{
       height: 26.13px;
-      width: 34.96px;
-      position: absolute;
-      left:10px;
-      top:10px;
+      width: 34.96px; 
     }
 
   
-    
-    
-    header{
-      text-align: center;
-    }
-    
+  
     .fa-bars{
       color: white;
       font-size: 25px;
       position: absolute;
-      top: -130px;
+      top: -100px;
       right: 0px;
-      width: 40px;
+      width: 35px;
       cursor: pointer;
-
     }
 
 
@@ -159,6 +151,13 @@
 }
 
 </style>
+<?php 
+  require("connect_db.php");
+?>
+
+ 
+ 
+
 
  
  

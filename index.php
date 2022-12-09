@@ -1,3 +1,4 @@
+
 <?php 
   include('header.php');
 ?>
@@ -15,18 +16,18 @@
 
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-              <img src="assets/excavator.jpg" class="d-block w-100" alt="...">
+              <img src="assets/advagro.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption text-white text-start">
-                <h5 style="color: #E8491D;" class="fw-bold ">Construction <span class="fw-thin text-white">and</span> Reconstruction</h5>
-                <p>Every tool for construction of House, Bridges, Roads and Facility</p>
+                <h3 style="" class="fw-bold lead text-success">Agrovet</h3>
+                <p>Agrochemicals and fertilizer wholesale and retail.High tech farming equipment</p>
               </div>
             </div>
 
             <div class="carousel-item" data-bs-interval="2000">
-              <img src="assets/consmap.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption text-white">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+              <img src="assets/home.jpeg" class="d-block w-100" alt="...">
+              <div class="carousel-caption text-white text-start">
+                <h4 class="text-primary">Make your home smart and beutiful</h4>
+                <p>All decorations for homes and smart devices to make your building smart.</p>
               </div>
             </div>
 
@@ -48,10 +49,7 @@
         </button>
       </div>
     </div>
-    <div class="col-md-6 p-4 ">
-      <h3 class="my-4">Welcome to our store,<br>We have awesome products for you needs.</h3>
-      <p>you may visit our store or order online we make fast and efficient service to our clients in affordable price and detailed important information about our products</p>
-    </div>
+    
     </div>
     <script type="text/javascript">
       var myCarousel = document.querySelector('#myCarousel')
@@ -81,33 +79,6 @@
       }
 
 
-      /*product view*/
-      .product-view{
-        display: grid;
-        grid-template-rows: auto auto;
-        grid-template-areas: "image" "text";
-      }
-
-      .product-image{
-        grid-area: image;
-      }
-
-      .product-text{
-        grid-area: text;
-      }
-
-
-      @media (max-width: 768px){
-
-      /*product view*/
-      .product-view{
-        display: grid;
-        grid-template-rows: ;
-        grid-template-columns: 1fr 3fr;
-        grid-template-areas: "image text";
-      }
-
-    }
 
     </style>
 
@@ -164,10 +135,83 @@
   </section>
   
   
-  
+  <!-- topics at glance-->
+  <section id="topics">
+    <div class="container-md">
+      <div class="text-center">
+        <h2>Welcome to our store,<br>We have awesome products for you needs.</h2>
+        <p class="lead text-muted">you may visit our store or order online we make fast and efficient service to our clients in affordable price and detailed important information about our products</p>
+      </div>
+
+      <div class="row my-5 g-5 justify-content-around align-items-center"> 
+        
+
+        <div class="col-lg-6">
+
+        <!-- Accordions -->
+        <div class="accordion" id="chapters">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-controls="chapter-1" aria-expanded="true">
+                OUR MISSION
+              </button>
+              
+            </h2>
+            <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
+              <div class="accordion-body">
+                <p>To contribute to enhance the good living standard of people by provision of quality products and services.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-controls="chapter-1" aria-expanded="true">
+                OUR VISION
+              </button>
+              
+            </h2>
+            <div id="chapter-1" class="accordion-collapse collapse " aria-labelledby="heading-1" data-bs-parent="#chapters">
+              <div class="accordion-body">
+                <p>To be one of professionally managed company in Africa and the world.</p> 
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-controls="chapter-1" aria-expanded="true">
+                OUR VISION
+              </button>
+              
+            </h2>
+            <div id="chapter-1" class="accordion-collapse collapse " aria-labelledby="heading-1" data-bs-parent="#chapters">
+              <div class="accordion-body">
+                <p>Hard working, creativity and innovation will bring the changes and difference to human life.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-1">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-controls="chapter-1" aria-expanded="true">
+                SOCIAL RESPONSIBILITY
+              </button>
+              
+            </h2>
+            <div id="chapter-1" class="accordion-collapse collapse " aria-labelledby="heading-1" data-bs-parent="#chapters">
+              <div class="accordion-body">
+                <p>We also believe that "it is normal to help" and therefore, we aim to invest significant finicial resources in the non-profit sectors every year. Especially in areas of people with need of special care, culture, health care, sports and education</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
   
   <!-- Mission, Vision, value, Social Responsibility  -->
-        <div class="row text-white black-board m-2 my-4 " style="background-color:black;">
+        <div class="container row text-white black-board m-2 my-4 d-none" style="background-color:black;">
           <nav>
            <ul class="nav nav-tabs nav-culture" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -180,7 +224,7 @@
                   <button class="nav-link" id="value-tab" data-bs-toggle="tab" data-bs-target="#value" type="button" role="tab" aria-controls="value" aria-selected="false">VALUE</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                  <button class="nav-link" id="social-tab" data-bs-toggle="tab" data-bs-target="#social" type="button" role="tab" aria-controls="social" aria-selected="false">SOCIAL RESPONSIBILITY</button>
+                  <button class="nav-link" id="social-tab" data-bs-toggle="tab" data-bs-target="#social-tab" type="button" role="tab" aria-controls="social-tab" aria-selected="false">SOCIAL RESPONSIBILITY</button>
                 </li>
               </ul>
               <div class="tab-content" id="myTabContent">
@@ -201,7 +245,24 @@
         </div>
         <!-- Mission, Vision, value, Social Responsibility  Ends-->
 
+      </div>
 
+    <style type="text/css">
+      .carousel .carousel-item{
+        min-height: 500px;
+      }
+
+      .carousel-item img{
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 500px;
+      }
+  
+    </style>
 
 
     <?php require('footer.html'); ?>
+  
+

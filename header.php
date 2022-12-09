@@ -135,9 +135,9 @@
   
     .fa-bars{
       color: white;
-      font-size: 25px;
+      font-size: 20px;
       position: absolute;
-      top: -100px;
+      top: -90px;
       right: 0px;
       width: 35px;
       cursor: pointer;

@@ -26,7 +26,7 @@
             <div class="carousel-item" data-bs-interval="2000">
               <img src="assets/home.jpeg" class="d-block w-100" alt="...">
               <div class="carousel-caption text-white text-start">
-                <h4 class="text-primary">Make your home smart and beutiful</h4>
+                <h4 class="fw-bold">Build a smart and beutifutul house</h4>
                 <p>All decorations for homes and smart devices to make your building smart.</p>
               </div>
             </div>

@@ -27,7 +27,7 @@
               <img src="assets/home.jpeg" class="d-block w-100" alt="...">
               <div class="carousel-caption text-white text-start">
                 <h4 class="fw-bold">Build a smart and beutifutul house</h4>
-                <p>All decorations for homes and smart devices to make your building smart.</p>
+                <p>All building materials for modern houses.</p>
               </div>
             </div>
 
@@ -249,7 +249,7 @@
 
     <style type="text/css">
       .carousel .carousel-item{
-        min-height: 300px;
+        min-height: 350px;
       }
 
       .carousel-item img{
@@ -257,7 +257,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        min-height: 300px;
+        min-height: 350px;
       }
   
     </style>

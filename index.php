@@ -249,7 +249,7 @@
 
     <style type="text/css">
       .carousel .carousel-item{
-        min-height: 500px;
+        min-height: 300px;
       }
 
       .carousel-item img{
@@ -257,7 +257,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        min-height: 500px;
+        min-height: 300px;
       }
   
     </style>
